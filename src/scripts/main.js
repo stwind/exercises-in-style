@@ -1,3 +1,5 @@
+require('normalize.css/normalize.css');
+
 var debug = require('debug');
 var React = require('react');
 var Router = require('react-router');
