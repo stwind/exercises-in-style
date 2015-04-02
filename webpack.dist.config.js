@@ -38,10 +38,13 @@ module.exports = {
       loaders: ['react-hot','jsx?harmony']
     }, {
       test: /\.scss/,
-      loader: ExtractTextPlugin.extract('style',
-        'css!autoprefixer?browsers=last 2 version!' + 
-        'sass?&sourceMap=true&outputStyle=expanded&includePaths[]=' + 
-        path.resolve(__dirname, './node_modules'))
+      loaders: [
+        'style/useable', 
+        'css', 
+        'autoprefixer?browsers=last 2 version',
+        'sass?outputStyle=expanded&includePaths[]=' + 
+        path.resolve(__dirname, './node_modules')
+      ]
     }, {
       test: /\.css$/,
       loader: ExtractTextPlugin.extract('style', 

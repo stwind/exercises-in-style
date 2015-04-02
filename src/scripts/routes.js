@@ -1,9 +1,9 @@
 var React = require('react');
 var Router = require('react-router');
-var { Route, DefaultRoute, Redirect, Link } = Router;
+var { Route, DefaultRoute, Redirect } = Router;
 
 var App = require('./app');
-var Home = require('./components/Home');
+// var Home = require('./components/Home');
 
 function handler (name) {
   return require('./components/' + name + '/cover');

@@ -1,4 +1,3 @@
-var debug = require('debug')('app:douban-diary');
 var React = require('react');
 
 var StyleMixin = require('../styleMixin');
@@ -10,7 +9,7 @@ var Cover = React.createClass({
   render: function () {
 
     return (
-      <div className="p-douban-diary">
+      <div id="douban-diary">
         <Text />
       </div>
     );

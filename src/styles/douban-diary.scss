@@ -1,5 +1,69 @@
 // douban-diary
 
-body {
-    font-size: 11px;
+#douban-diary {
+    font-size: 12px;
+    font-family: Helvetica,Arial,sans-serif;
+
+    a {
+        text-decoration: none;
+        color: #669;
+    }
+
+    .pl {
+        line-height: 150%;
+        color: #666666;
+    }
+
+    .wrapper {
+        width: 950px;
+        margin: 0 auto;
+    }
+
+    .global-nav {
+        height: 28px;
+        background-color: #545652;
+    }
+
+    .nav-sns {
+        background-color: #edf4ed;
+        height: 74px;
+        margin-bottom: 40px;
+    }
+
+    .article {
+        width: 590px;
+        padding-right: 40px;
+    }
+
+    h1 {
+        word-wrap: break-word;
+        display: block;
+        font-size: 25px;
+        font-weight: bold;
+        color: #494949;
+        margin: 0;
+        padding: 0 0 15px 0;
+        line-height: 1.1;
+    }
+
+    .avatar {
+        display: inline-block;
+        height: 24px;
+        width: 24px;
+        background-color: #545652;
+        vertical-align: middle;
+    }
+
+    .author {
+        margin: 0 10px 0 7px;
+    }
+
+    .post-content {
+        font-size: 13px;
+        line-height: 1.62;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .aside {
+    }
 }
